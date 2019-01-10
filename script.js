@@ -1,22 +1,19 @@
-// using this array,
-var array = ["Banana", "Apples", "Oranges", "Blueberries"];
+// Create an object and an array which we will use in our facebook exercise. 
+
+// 1. Create an object that has properties "username" and "password". Fill those values in with strings.
 
 
+// 2. Create an array which contains the object you have made above and name the array "database".
 
-// 1. Remove the Banana from the array.
+// 3. Create an array called "newsfeed" which contains 3 objects with properties "username" and "timeline".
 
-// 2. Sort the array in order.
 
-// 3. Put "Kiwi" at the end of the array.
+console.log('hello');
 
-// 4. Remove "Apples" from the array.
-
-// 5. Sort the array in reverse order. (Not alphabetical, but reverse
-// the current Array i.e. ['a', 'c', 'b'] becomes ['b', 'c', 'a'])
-
-// you should have at the end:
-// ["Kiwi", "Oranges", "Blueberries"]
-
-// using this array,
- var array2 = ["Banana", ["Apples", ["Oranges"], "Blueberries"]];
-// access "Oranges".
+var fb={
+    username:"Billy",
+    password:"Silly",
+    last:"Gally"
+}
+database=[fb];
+newsfeed=[{username:"Allen",timeline:"12"},{username:"Hen",timeline:"15"},{username:"Zen",timeline:"32"},];
